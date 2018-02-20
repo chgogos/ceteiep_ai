@@ -1,0 +1,11 @@
+# simple example to test uniform cost search
+[VERTICES:4]
+A
+B
+C
+D
+[EDGES:4]
+A,B,5
+A,C,40
+B,D,50
+C,D,5
