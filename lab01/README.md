@@ -8,16 +8,32 @@
 * [lab01_graph.cpp](lab01_graph.cpp)
 * [lab01_01.cpp](lab01_01.cpp)
 
-Μεταγλώττιση:
+Μεταγλώττιση
 
 ```bash
 g++ lab01_graph.cpp lab01_01.cpp -o lab01_01 -Wall -std=c++11
 ```
 
-Εκτέλεση για τη φόρτωση του αρχείου tour_romania.txt από τον κατάλογο data:
+Εκτέλεση για τη φόρτωση του αρχείου tour_romania.txt από τον κατάλογο data
 
 ```bash
 .\lab01_01 data/tour_romania.txt
+```
+
+Έξοδος
+
+```bash
+Vertices=20
+Vertex Arad(A)
+Vertex Bucharest(B)
+…
+Vertex Zerind(Z)
+Edges=46
+Arad(A)--140-->Sibiu(S)
+8
+Arad(A)--118-->Timisoara(T)
+…
+Zerind(Z)--71-->Oradea(O)
 ```
 
 ### 2. Υλοποίηση βασικών μορφών των αλγορίθμων αναζήτησης πρώτα κατά βάθος (DFS) και αναζήτησης πρώτα κατά πλάτος (BFS)
@@ -30,16 +46,30 @@ g++ lab01_graph.cpp lab01_01.cpp -o lab01_01 -Wall -std=c++11
 * [lab01_search_simple.cpp](lab01_search_simple.cpp)
 * [lab01_02.cpp](lab01_02.cpp)
 
-Μεταγλώττιση:
+Μεταγλώττιση
 
 ```bash
 g++ lab01_graph.cpp lab01_search_simple.cpp lab01_02.cpp -o lab01_02 -std=c++11
 ```
 
-Εκτέλεση για την εφαρμογή του αλγορίθμου BFS στο αρχείο tour_romania.txt για τη μετάβαση από την πόλη C στην πόλη Β:
+Εκτέλεση για την εφαρμογή του αλγορίθμου BFS στο αρχείο tour_romania.txt για τη μετάβαση από την πόλη C στην πόλη Β
 
 ```bash
 ./lab01_02 data/tour_romania.txt C B bfs
+```
+
+Έξοδος
+
+```bash
+BREADTH FIRST SEARCH
+Starting from node C
+current state: D
+current state: P
+current state: R
+current state: C
+current state: M
+current state: B
+Path to goal node B found with length 239
 ```
 
 ### 3. Υλοποίηση αλγορίθμων BFS, DFS και ομοιόμορφης αναζήτησης (UCS) με ταυτόχρονη αποθήκευση της διαδρομής από την αφετηρία προς τον προορισμό
@@ -50,13 +80,13 @@ g++ lab01_graph.cpp lab01_search_simple.cpp lab01_02.cpp -o lab01_02 -std=c++11
 * [lab01_search.cpp](lab01_search.cpp)
 * [lab01_03.cpp](lab01_03.cpp)
 
-Μεταγλώττιση:
+Μεταγλώττιση
 
 ```bash
 g++ lab01_graph.cpp lab01_search.cpp lab01_03.cpp -o lab01_03 -std=c++11
 ```
 
-Εκτέλεση για την εφαρμογή του αλγορίθμου BFS στο αρχείο tour_romania.txt για τη μετάβαση από την πόλη C στην πόλη Β:
+Εκτέλεση για την εφαρμογή του αλγορίθμου BFS στο αρχείο tour_romania.txt για τη μετάβαση από την πόλη C στην πόλη Β
 
 ```bash
 ./lab01_03 data/tour_romania.txt C B bfs
@@ -76,7 +106,7 @@ frontier:[(C-P-B)(C-P-C)(C-P-R)(C-R-C)(C-R-P)(C-R-S)(C-D-M-D)(C-D-M-L)] closed s
 Path to goal node found: (Craiova-Pitesti-Bucharest 239)
 ```
 
-Εκτέλεση για την εφαρμογή του αλγορίθμου DFS στο αρχείο tour_romania.txt για τη μετάβαση από την πόλη C στην πόλη Β:
+Εκτέλεση για την εφαρμογή του αλγορίθμου DFS στο αρχείο tour_romania.txt για τη μετάβαση από την πόλη C στην πόλη Β
 
 ```bash
 ./lab01_03 data/tour_romania.txt C B dfs
@@ -102,7 +132,7 @@ frontier:[(C-D-M-L-T-A-S-F-B)(C-D-M-L-T-A-S-F-S)(C-D-M-L-T-A-S-O)(C-D-M-L-T-A-S-
 Path to goal node found: (Craiova-Drobeta-Mehadia-Lugoj-Timisoara-Arad-Sibiu-Fagaras-Bucharest 944)
 ```
 
-Εκτέλεση για την εφαρμογή του αλγορίθμου UCS στο αρχείο tour_romania.txt για τη μετάβαση από την πόλη C στην πόλη Β:
+Εκτέλεση για την εφαρμογή του αλγορίθμου UCS στο αρχείο tour_romania.txt για τη μετάβαση από την πόλη C στην πόλη Β
 
 ```bash
 ./lab01_03 data/tour_romania.txt C B ucs
