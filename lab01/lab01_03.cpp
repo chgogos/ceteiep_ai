@@ -9,15 +9,13 @@
  */
 #include "lab01_search.hpp"
 
-int main(int argc, char **argv) { struct di_graph graph { };
-  string fn{};
-  string start_vertex{}, goal_vertex{}, search_method{};
+int main(int argc, char **argv) { 
+  struct di_graph graph;
   if (argc == 5) {
-    fn = argv[1];
-    start_vertex = argv[2];
-    goal_vertex = argv[3];
-    search_method = argv[4];
-    graph = read_data(fn);
+    graph = read_data(argv[1]);
+    string start_vertex = argv[2];
+    string goal_vertex = argv[3];
+    string search_method = argv[4];
     if (search_method.compare("bfs") == 0)
       breadth_first_search(graph, start_vertex, goal_vertex);
     else if (search_method.compare("dfs") == 0)
