@@ -39,3 +39,14 @@
 * Τεχνητή Νοημοσύνη Ι. Τμήμα Ηλεκτρολόγων Μηχανικών και Τεχνολογίας Υπολογιστών - Πανεπιστήμιο Πατρών, Φακωτάκης Νίκος, Σγάρμπας Κυριάκος, Μουστάκας Κώστας, Πέππας Παύλος <https://eclass.upatras.gr/courses/EE690/>
 * Τεχνητή Νοημοσύνη. Εθνικό και Καποδιστριακό Πανεπιστήμιο Αθηνών, Κουμπαράκης Μανώλης, Σταματόπουλος Παναγιώτης, <http://opencourses.uoa.gr/courses/DI115/>
 * Τεχνητή Νοημοσύνη. ΤΕΙ Αθήνας, Γεωργούλη Κατερίνα, <https://ocp.teiath.gr/courses/CS_UNDER100/>
+
+### MOOCs
+
+* EdX, Artificial Intelligence, by Columbia University CSMM.101x <https://www.edx.org/course/artificial-intelligence-ai-columbiax-csmm-101x-2>
+
+### Ενδιαφέροντα άρθρα - ιστοσελίδες
+
+* [Awesome A.I. Bookmarks](https://github.com/goodrahstar/my-awesome-AI-bookmarks)
+* [The WIRED guide to A.I.](https://www.wired.com/story/guide-artificial-intelligence)
+* [An executive's guide to A.I.](https://www.mckinsey.com/business-functions/mckinsey-analytics/our-insights/an-executives-guide-to-ai)
+* [WIRED: Inside the Alexa prize](https://www.wired.com/story/inside-amazon-alexa-prize/)

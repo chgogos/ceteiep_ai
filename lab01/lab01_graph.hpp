@@ -31,7 +31,7 @@ int get_vertex_index(struct di_graph graph, string vertex);
 // επιστροφή του μήκους της ακμής ανάμεσα σε 2 κορυφές
 int get_weight(di_graph graph, string source_vertex, string destination_vertex);
 
-//  επισστροφή λίστας με τις γειτονικές κορυφές μιας κορυφής του γραφήματος
+//  επιστροφή λίστας με τις γειτονικές κορυφές μιας κορυφής του γραφήματος
 //  ταξινομημένες σε αύξουσα ή σε φθίνουσα αλφαβητική σειρά
 list<string> get_successors(struct di_graph graph, string node, bool asc_order=true);
 
