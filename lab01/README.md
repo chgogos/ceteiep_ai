@@ -153,7 +153,7 @@ frontier:[(C-P-B 239)(C-D-C 240)(C-R-P 243)(C-D-M-L 265)(C-D-M-D 270)(C-P-C 276)
 Path to goal node found: (Craiova-Pitesti-Bucharest 239)
 ```
 
-===
+---
 
 Μεταγλώττιση και εκτέλεση όλων των παραδειγμάτων με makefile
 

@@ -16,11 +16,11 @@ lab01_03:lab01_03.cpp lab01_graph.cpp lab01_search.cpp
 run1: lab01_01
 	./lab01_01 data/tour_romania.txt
 
-# target to run example2 for tour_romania, breadth first search A-->B
+# target to run example2 for tour_romania, breadth first search Arad-->Bucharest
 run2: lab01_02
 	./lab01_02 data/tour_romania.txt A B bfs
 
-# target to run example3 for tour_romania, breadth first search A-->B
+# target to run example3 for tour_romania, breadth first search Arad-->Bucharest
 run3: lab01_03
 	./lab01_03 data/tour_romania.txt A B bfs
 
