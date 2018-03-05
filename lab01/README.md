@@ -2,9 +2,9 @@
 
 ## 1. Κωδικοποίηση γραφήματος
 
-Παράδειγμα ανάγνωσης ενός γραφήματος από αρχείο κειμένου καθώς και παρουσίασης της πληροφορίας του γραφήματος. 
+Παράδειγμα ανάγνωσης ενός γραφήματος από αρχείο κειμένου καθώς και παρουσίασης της πληροφορίας του γραφήματος.
 
-* [lab01_graph.hpp](lab01_graph.hpp) 
+* [lab01_graph.hpp](lab01_graph.hpp)
 * [lab01_graph.cpp](lab01_graph.cpp)
 * [lab01_01.cpp](lab01_01.cpp)
 
@@ -40,7 +40,7 @@ Zerind(Z)--71-->Oradea(O)
 
 Αναζήτηση πρώτα κατά βάθος (DFS) και αναζήτηση πρώτα κατά πλάτος (BFS) χωρίς να αποθηκεύεται η διαδρομή που εντοπίζει ο αλγόριθμος. Εμφανίζει τις πόλεις οι οποίες εξετάζονται κατά την αναζήτηση και εφόσον βρεθεί ο προορισμός το μήκος της διαδρομής όπως έχει εντοπιστεί από τον αλγόριθμο.
 
-* [lab01_graph.hpp](lab01_graph.hpp) 
+* [lab01_graph.hpp](lab01_graph.hpp)
 * [lab01_graph.cpp](lab01_graph.cpp)
 * [lab01_search_simple.hpp](lab01_search_simple.hpp)
 * [lab01_search_simple.cpp](lab01_search_simple.cpp)
@@ -74,7 +74,7 @@ Path to goal node B found with length 239
 
 ## 3. Υλοποίηση αλγορίθμων BFS, DFS και ομοιόμορφης αναζήτησης (UCS) με ταυτόχρονη αποθήκευση της διαδρομής από την αφετηρία προς τον προορισμό
 
-* [lab01_graph.hpp](lab01_graph.hpp) 
+* [lab01_graph.hpp](lab01_graph.hpp)
 * [lab01_graph.cpp](lab01_graph.cpp)
 * [lab01_search.hpp](lab01_search.hpp)
 * [lab01_search.cpp](lab01_search.cpp)
