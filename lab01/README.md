@@ -157,6 +157,8 @@ Path to goal node found: (Craiova-Pitesti-Bucharest 239)
 
 Μεταγλώττιση και εκτέλεση όλων των παραδειγμάτων με makefile
 
+* [makefile](makefile)
+
 ```bash
 make
 ```
