@@ -152,3 +152,35 @@ frontier:[(C-P-R 235)(C-P-B 239)(C-D-C 240)(C-R-P 243)(C-D-M-L 265)(C-D-M-D 270)
 frontier:[(C-P-B 239)(C-D-C 240)(C-R-P 243)(C-D-M-L 265)(C-D-M-D 270)(C-P-C 276)(C-R-C 292)(C-R-S-R 306)(C-R-S-F 325)(C-R-S-A 366)(C-R-S-O 377)] closed set:[C D M P R S] current node:B successors:[F G P U]
 Path to goal node found: (Craiova-Pitesti-Bucharest 239)
 ```
+
+===
+
+Μεταγλώττιση και εκτέλεση όλων των παραδειγμάτων με makefile
+
+```bash
+make
+```
+
+Εκτέλεση παραδείγματος 1 (tour_romania.txt)
+
+```bash
+make run1
+```
+
+Εκτέλεση παραδείγματος 2 (tour_romania.txt, BFS, Arad-->Bucharest)
+
+```bash
+make run2
+```
+
+Εκτέλεση παραδείγματος 3 (tour_romania.txt, BFS, Arad-->Bucharest)
+
+```bash
+make run3
+```
+
+Διαγραφή των εκτελέσιμων
+
+```bash
+make clean
+```
