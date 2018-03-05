@@ -9,7 +9,7 @@
  */
 #include "lab01_search.hpp"
 
-int main(int argc, char **argv) { 
+int main(int argc, char **argv) {
   struct di_graph graph;
   if (argc == 5) {
     graph = read_data(argv[1]);
@@ -24,6 +24,8 @@ int main(int argc, char **argv) {
       uniform_cost_search(graph, start_vertex, goal_vertex);
     else
       cerr << "invalid option" << endl;
+  } else {
+    cerr << "wrong number of arguments" << endl;
   }
   free_memory(graph);
 }

@@ -22,6 +22,8 @@ int main(int argc, char **argv) {
       depth_first_search_base(graph, start_vertex, goal_vertex);
     else
       cerr << "Invalid choice" << endl;
+  } else {
+    cerr << "wrong number of arguments" << endl;
   }
   free_memory(graph);
 }

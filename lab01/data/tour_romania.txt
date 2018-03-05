@@ -21,14 +21,14 @@ T,Timisoara
 U,Urziceni
 V,Vaslui
 Z,Zerind
-[EDGES:44]
+[EDGES:46]
 A,S,140
 A,T,118
 A,Z,75
 B,F,211
 B,G,90
 B,P,101
-# B,U,85
+B,U,85
 C,D,120
 C,P,138
 C,R,146
@@ -61,7 +61,7 @@ S,O,151
 S,R,80
 T,A,118
 T,L,111
-# U,B,85
+U,B,85
 U,H,98
 U,V,142
 V,I,92
