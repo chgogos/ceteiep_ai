@@ -1,16 +1,16 @@
-CC=g++
+CXX=g++
 CFLAGS=-Wall -std=c++11
 
 all: lab01_01 lab01_02 lab01_03
 
 lab01_01: lab01_01.cpp lab01_graph.cpp
-	$(CC) $(CFLAGS) lab01_01.cpp lab01_graph.cpp -o lab01_01
+	$(CXX) $(CFLAGS) lab01_01.cpp lab01_graph.cpp -o lab01_01
 
 lab01_02:lab01_02.cpp lab01_graph.cpp lab01_search_simple.cpp
-	$(CC) $(CFLAGS) lab01_02.cpp lab01_graph.cpp lab01_search_simple.cpp -o lab01_02
+	$(CXX) $(CFLAGS) lab01_02.cpp lab01_graph.cpp lab01_search_simple.cpp -o lab01_02
 
 lab01_03:lab01_03.cpp lab01_graph.cpp lab01_search.cpp
-	$(CC) $(CFLAGS) lab01_03.cpp lab01_graph.cpp lab01_search.cpp -o lab01_03
+	$(CXX) $(CFLAGS) lab01_03.cpp lab01_graph.cpp lab01_search.cpp -o lab01_03
 
 # target to run example1 for tour_romania (print graph info)
 run1: lab01_01
