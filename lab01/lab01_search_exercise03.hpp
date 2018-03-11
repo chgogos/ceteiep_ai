@@ -7,6 +7,10 @@
  * TEI of Epirus - Department of Computer Engineering
  * Gogos Christos - Arta 2017
  */
+
+#ifndef __LAB01_SEARCH_EXERCISE03_HPP__
+#define __LAB01_SEARCH_EXERCISE03_HPP__
+
 #include "lab01_graph.hpp"
 #include <queue>
 #include <set>
@@ -71,3 +75,5 @@ search_node to_search_node(string node);
 // προσθήκη ενός επιπλέον κόμβου στη διαδρομή που έχει ήδη δημιουργηθεί,
 // ενημέρωση κόστους
 search_node to_search_node(di_graph graph, search_node parent_sn, string node);
+
+#endif

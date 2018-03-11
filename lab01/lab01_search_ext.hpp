@@ -7,6 +7,10 @@
  * TEI of Epirus - Department of Computer Engineering
  * Gogos Christos - Arta 2017
  */
+
+#ifndef __LAB01_SEARCH_EXT_HPP__
+#define __LAB01_SEARCH_EXT_HPP__
+
 #include "lab01_search.hpp"
 
 using namespace std;
@@ -31,3 +35,5 @@ search_node dfs_r(struct di_graph graph, set<string> closed,
 
 void uniform_cost_search_alt(struct di_graph graph, string start_vertex,
                              string goal_vertex);
+
+#endif

@@ -8,6 +8,7 @@
  * Gogos Christos - Arta 2017
  */
 #include "lab01_graph.hpp"
+#include <climits>
 
 using namespace std;
 
