@@ -7,3 +7,12 @@
 ## Υλοποίηση σε C++
 
 * [fgwc.cpp](fgwc.cpp)
+
+## Μεταγλώττιση και εκτέλεση
+
+* [makefile](makefile)
+
+```bash
+make
+make run
+```

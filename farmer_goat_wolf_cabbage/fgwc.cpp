@@ -40,7 +40,6 @@ vector<string> expand(string state){
     vector<string> next_state_list;
     string new_state;
 
-    char fcp = farmer_loc(state);
     // farmer goes to the opposite shore alone
     new_state = state;
     new_state[0] = opposite_shore(farmer_loc(state));
