@@ -15,8 +15,8 @@ lab01_exercise04: lab01_graph.cpp lab01_search_simple_exercise04.cpp lab01_exerc
 lab01_exercise06: lab01_graph.cpp lab01_search.cpp lab01_search_ext.cpp lab01_exercise06.cpp
 	$(CXX) $(CFLAGS) lab01_graph.cpp lab01_search.cpp lab01_search_ext.cpp lab01_exercise06.cpp -o lab01_exercise06
 
-lab01_exercise06: lab01_graph.cpp lab01_search.cpp lab01_search_ext.cpp lab01_exercise08.cpp
-	$(CXX) $(CFLAGS) lab01_graph.cpp lab01_search.cpp lab01_search_ext.cpp lab01_exercise08.cpp -o lab01_exercise06
+lab01_exercise08: lab01_graph.cpp lab01_search.cpp lab01_search_ext.cpp lab01_exercise08.cpp
+	$(CXX) $(CFLAGS) lab01_graph.cpp lab01_search.cpp lab01_search_ext.cpp lab01_exercise08.cpp -o lab01_exercise08
 
 exercise02: lab01_exercise02
 	./lab01_exercise02 data/tour_romania.txt

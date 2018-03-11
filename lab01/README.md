@@ -186,3 +186,45 @@ make run3
 ```bash
 make clean
 ```
+
+---
+
+## Ασκήσεις
+
+Μεταγλώττιση όλων των ασκήσεων με makefile
+
+* [exercises.mk](exercises.mk)
+
+```bash
+make -f exercises.mk 
+```
+
+Εκτέλεση άσκησης 2
+
+```bash
+make -f exercises.mk exercise02
+```
+
+Εκτέλεση άσκησης 3
+
+```bash
+make -f exercises.mk exercise03
+```
+
+Εκτέλεση άσκησης 4
+
+```bash
+make -f exercises.mk exercise04
+```
+
+Εκτέλεση άσκησης 6
+
+```bash
+make -f exercises.mk exercise06
+```
+
+Εκτέλεση άσκησης 8
+
+```bash
+make -f exercises.mk exercise08
+```
