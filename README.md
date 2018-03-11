@@ -10,9 +10,14 @@
 
 * ΑΙΜΑ Book
   * Τεχνητή Νοημοσύνη, μια σύγχρονη προσέγγιση, Stuart Russell & Peter Norvig, Κλειδάριθμος, επιμέλεια μετάφρασης: Γιάννης Ρεφανίδης,ISBN: 960-209-873-2, <http://ai.uom.gr/aima/>
-  * Artificial Intelligence, a Modern Approach, Stuart Russell & Peter Norvig, Pearson; 3rd edition (December 11, 2009), <http://aima.cs.berkeley.edu>
+  * Artificial Intelligence: A Modern Approach, Stuart Russell & Peter Norvig, Pearson; 3rd edition (December 11, 2009), <http://aima.cs.berkeley.edu>
+  * Python code for the book Artificial Intelligence: A Modern Approach <https://github.com/aimacode/aima-python>
 * Ι. Βλαχάβας, Π. Κεφαλάς, Ν. Βασιλειάδης, Φ. Κόκκορας, Η. Σακελλαρίου. Τεχνητή Νοημοσύνη - Γ' Έκδοση, ISBN: 978-960-8396-64-7 Έκδοση/Διάθεση: Εκδόσεις Πανεπιστημίου Μακεδονίας, 2011, <http://aibook.csd.auth.gr/>
+* AIFCA Book
+  * Artificial Intelligence, Foundations of Computational Agents, David Poole, Alan Mackworth, <http://people.cs.ubc.ca/~poole/aibook/index.html>
+  * AIPython: Python Code for AIFCA <http://artint.info/AIPython/>
 * Introduction to Artificial Intelligence, Wolfgang Ertel, Springer, 2011, <http://www.springer.com/gp/book/9783319584867>
+* Artificial Intelligence: Structures and Strategies for Complex Problem Solving, 6/E, George F. Luger, 2009, University of New Mexico, <http://catalogue.pearsoned.co.uk/educator/product/Artificial-Intelligence-Structures-and-Strategies-for-Complex-Problem-Solving-6E/9780321545893.page>
 
 ### Μαθήματα με ανοικτό υλικό (βιντεοδιαλέξεις - παρουσιάσεις κλπ)
 
@@ -22,7 +27,7 @@
 * Τεχνητή Νοημοσύνη. ΤΕΙ Αθήνας, Γεωργούλη Κατερίνα, <https://ocp.teiath.gr/courses/CS_UNDER100/>
 * Introduction to A.I. by Peter Norvig and Sebastian Thurn, <http://www.wonderwhy-er.com/ai-class/>
 * Intro to A.I., UC Berkeley CS188, <http://ai.berkeley.edu/home.html>
-* ArtificialBrain.xyz lectures <https://www.artificialbrain.xyz/category/lectures/>
+* Artificial Intelligence lectures by Patrick H. Winston <https://www.artificialbrain.xyz/artificial-intelligence-complete-lectures-01-23/>
 
 ### MOOCs
 
@@ -44,7 +49,8 @@
 
 ### Εργαστήριο 1
 
-[Αναζήτηση χωρίς πληροφόρηση](./lab01/README.md)
+* [Αναζήτηση χωρίς πληροφόρηση (C++)](./lab01/README.md)
+* [Επίλυση με αναζήτηση του προβλήματος farmer-goat-wolf-cabbage (C++)](./farmer_goat_wolf_cabbage/README.md)
 
 ### Εργαστήριο 2
 
