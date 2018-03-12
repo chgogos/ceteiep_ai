@@ -13,6 +13,7 @@
   * Artificial Intelligence: A Modern Approach, Stuart Russell & Peter Norvig, Pearson; 3rd edition (December 11, 2009), <http://aima.cs.berkeley.edu>
   * Python code for the book Artificial Intelligence: A Modern Approach <https://github.com/aimacode/aima-python>
 * Ι. Βλαχάβας, Π. Κεφαλάς, Ν. Βασιλειάδης, Φ. Κόκκορας, Η. Σακελλαρίου. Τεχνητή Νοημοσύνη - Γ' Έκδοση, ISBN: 978-960-8396-64-7 Έκδοση/Διάθεση: Εκδόσεις Πανεπιστημίου Μακεδονίας, 2011, <http://aibook.csd.auth.gr/>
+  * Διαφάνειες βιβλίου <http://aibook.csd.auth.gr/slides_toc.html>
 * AIFCA Book
   * Artificial Intelligence, Foundations of Computational Agents, David Poole, Alan Mackworth, <http://people.cs.ubc.ca/~poole/aibook/index.html>
   * AIPython: Python Code for AIFCA <http://artint.info/AIPython/>
@@ -49,7 +50,9 @@
 
 ### Εργαστήριο 1
 
-* [Αναζήτηση χωρίς πληροφόρηση (C++)](./lab01/README.md)
+* [Αναζήτηση χωρίς πληροφόρηση](./lab01/ΤΝ%20ΕΡΓΑΣΤΗΡΙΟ%201-ΑΝΑΖΗΤΗΣΗ%20ΧΩΡΙΣ%20ΠΛΗΡΟΦΟΡΗΣΗ.pdf)
+* [Ασκήσεις εργαστηρίου](./lab01/ΤΝ%20ΕΡΓΑΣΤΗΡΙΟ%201-ΑΣΚΗΣΕΙΣ.pdf)
+* [Κώδικας σε C++](./lab01/README.md)
 * [Επίλυση με αναζήτηση του προβλήματος farmer-goat-wolf-cabbage (C++)](./farmer_goat_wolf_cabbage/README.md)
 
 ### Εργαστήριο 2
