@@ -27,10 +27,8 @@ void depth_first_search(struct di_graph graph, string start_vertex,
     bool is_in{closed.find(current_state_back) != closed.end()};
     if (!is_in) {
       // Οι γειτονικοί κόμβοι λαμβάνονται σε φθίνουσα αλφαβητική σειρά έτσι ώστε
-      // όταν
-      // τοποθετηθούν στη στοίβα η τιμή που βρίσκεται στη κορυφή να είναι η
-      // μικρότερη
-      // αλφαβητικά από αυτές που εισήχθησαν τελευταίες
+      // όταν τοποθετηθούν στη στοίβα η τιμή που βρίσκεται στη κορυφή να είναι η
+      // μικρότερη αλφαβητικά από αυτές που εισήχθησαν τελευταίες
       for (string v : get_successors(graph, current_state_back, false))
         frontier.push(to_search_node(graph, current_state, v));
       closed.insert(current_state_back);
