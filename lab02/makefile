@@ -26,4 +26,5 @@ run4: lab02_02
 	./lab02_02 data/tour_romania.txt A ASTAR
 
 clean:
-	rm lab02_01 lab02_02
+	rm -f lab02_01 lab02_02
+
