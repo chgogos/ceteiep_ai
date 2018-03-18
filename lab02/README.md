@@ -37,7 +37,19 @@ g++ lab02_graph.cpp lab02_search.cpp lab02_02.cpp -o lab02_02 -std=c++11
 Εκτέλεση για την εφαρμογή του αλγορίθμου HC στο αρχείο tour_romania.txt για τη μετάβαση από την πόλη A στην πόλη Β
 
 ```bash
-./lab02_02 data/tour_romania_h.txt A B HC
+./lab02_02 data/tour_romania_h.txt A HC
+```
+
+Εκτέλεση για την εφαρμογή του αλγορίθμου BestFS στο αρχείο tour_romania.txt για τη μετάβαση από την πόλη A στην πόλη Β
+
+```bash
+./lab02_02 data/tour_romania_h.txt A BESTFS
+```
+
+Εκτέλεση για την εφαρμογή του αλγορίθμου A* στο αρχείο tour_romania.txt για τη μετάβαση από την πόλη A στην πόλη Β
+
+```bash
+./lab02_02 data/tour_romania_h.txt A ASTAR
 ```
 
 Μεταγλώττιση και εκτέλεση όλων των παραδειγμάτων με makefile

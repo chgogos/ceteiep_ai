@@ -15,15 +15,15 @@ run1: lab02_01
 
 # target to run example2 for tour_romania using Hill Climbing for Arad-->Bucharest 
 run2: lab02_02
-	./lab02_02 data/tour_romania.txt A B HC
+	./lab02_02 data/tour_romania.txt A HC
 
 # target to run example2 for tour_romania using BestFS for Arad-->Bucharest 
 run3: lab02_02
-	./lab02_02 data/tour_romania.txt A B BESTFS
+	./lab02_02 data/tour_romania.txt A BESTFS
 
 # target to run example2 for tour_romania using A* for Arad-->Bucharest 
 run4: lab02_02
-	./lab02_02 data/tour_romania.txt A B ASTAR
+	./lab02_02 data/tour_romania.txt A ASTAR
 
 clean:
 	rm lab02_01 lab02_02
