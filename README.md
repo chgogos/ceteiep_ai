@@ -40,6 +40,8 @@
 * [Awesome A.I. Bookmarks](https://github.com/goodrahstar/my-awesome-AI-bookmarks)
 * [The WIRED guide to A.I.](https://www.wired.com/story/guide-artificial-intelligence)
 * [An executive's guide to A.I.](https://www.mckinsey.com/business-functions/mckinsey-analytics/our-insights/an-executives-guide-to-ai)
+* [Royal Society: Developments in machine learning and A.I.](https://royalsociety.org/topics-policy/projects/machine-learning/find-out-more)
+* [Google: A.I. experiments](https://experiments.withgoogle.com/ai)
 * [WIRED: Inside the Alexa prize](https://www.wired.com/story/inside-amazon-alexa-prize/)
 * [Θεωρία παιγνίων (παράδειγμα: η εξέλιξη της εμπιστοσύνης)](https://lightspot21.github.io/trust/)
 * [Amit’s A* Pages](http://theory.stanford.edu/~amitp/GameProgramming/)
