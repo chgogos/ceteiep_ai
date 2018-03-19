@@ -4,7 +4,7 @@
 
 ## Θεωρία
 
-Ευφυείς πράκτορες, αλγόριθμοι αναζήτησης χωρίς πληροφόρηση σε χώρους καταστάσεων (BFS, DFS, UCS, IDS), ευρετικοί αλγόριθμοι αναζήτησης σε χώρους καταστάσεων (HillClimbing, BestFS, A*), αναζήτηση με αντιπαλότητα (minimax, α-β), προβλήματα ικανοποίησης περιορισμών, προτασιακή λογική, κατηγορηματική λογική, λογικός προγραμματισμός.
+Ευφυείς πράκτορες, αλγόριθμοι αναζήτησης χωρίς πληροφόρηση σε χώρους καταστάσεων (BFS=Breadth First Search, DFS=Depth First Search, UCS=Uniform Cost Search, DLS=Depth Limited Search, IDS=Iterative Deepening Search, ILS=Iterative Lengthening Search, BiS=Bidirectional Search), αλγόριθμοι ευρετικής αναζήτησης σε χώρους καταστάσεων (HillClimbing, BestFS, A*), αναζήτηση με αντιπαλότητα (minimax, α-β), προβλήματα ικανοποίησης περιορισμών, προτασιακή λογική, κατηγορηματική λογική, λογικός προγραμματισμός, Prolog.
 
 ### Συγγράμματα
 
@@ -46,6 +46,16 @@
 * [pathfinding.js](http://qiao.github.io/PathFinding.js/visual/)
 * [AISPACE: Tools for learning Artificial Intelligence](http://www.aispace.org/)
 
+### Podcasts
+
+* [buzzITtalk: Artificial Intelligence, Machine Learning & Operations Research](https://www.buzzittalk.com/episode-04-artificial-intelligence-machine-learning-operations-research/)
+* [Data Skeptic: The Agent Model of Intelligence](https://dataskeptic.com/blog/episodes/2018/the-agent-model-of-intelligence)
+* [Data Skeptic: A.I. Decision Making](https://dataskeptic.com/blog/episodes/2018/ai-decision-making)
+* [Data Skeptic: Reinforcement Learning](https://dataskeptic.com/blog/episodes/2018/reinforcement-learning)
+* [Talking Machines: Natural vs Artificial Intelligence and Doing Unexpected Work](https://www.thetalkingmachines.com/node/12979)
+
+---
+
 ## Εργαστήριο
 
 ### Εργαστήριο 1
@@ -72,3 +82,5 @@
 ### Εργαστήριο 5
 
 Προγραμματισμός με περιορισμούς (CLP)
+
+---
