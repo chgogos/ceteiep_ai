@@ -47,6 +47,7 @@
 * [Amit’s A* Pages](http://theory.stanford.edu/~amitp/GameProgramming/)
 * [pathfinding.js](http://qiao.github.io/PathFinding.js/visual/)
 * [AISPACE: Tools for learning Artificial Intelligence](http://www.aispace.org/)
+* [Nonverbal graph search instructions - IDEA](https://idea-instructions.com/graph-scan/)
 
 ### Podcasts
 
