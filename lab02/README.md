@@ -92,7 +92,7 @@ make clean
 
 ---
 
-<!-- ## Ασκήσεις
+## Ασκήσεις
 
 Μεταγλώττιση όλων των ασκήσεων με makefile
 
@@ -100,12 +100,6 @@ make clean
 
 ```bash
 make -f exercises.mk 
-```
-
-Εκτέλεση άσκησης 2
-
-```bash
-make -f exercises.mk exercise02
 ```
 
 Εκτέλεση άσκησης 3
@@ -120,14 +114,8 @@ make -f exercises.mk exercise03
 make -f exercises.mk exercise04
 ```
 
-Εκτέλεση άσκησης 6
+Διαγραφή εκτελέσιμων
 
 ```bash
-make -f exercises.mk exercise06
+make -f exercises.mk clean
 ```
-
-Εκτέλεση άσκησης 8
-
-```bash
-make -f exercises.mk exercise08
-``` -->
