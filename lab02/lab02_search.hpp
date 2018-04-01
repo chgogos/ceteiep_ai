@@ -7,6 +7,8 @@
  * TEI of Epirus - Department of Computer Engineering
  * Gogos Christos - Arta 2017
  */
+#ifndef __LAB02_SEARCH_HPP__
+#define __LAB02_SEARCH_HPP__
 
 #include "lab02_graph.hpp"
 #include <set>
@@ -75,3 +77,5 @@ void best_first_search(struct di_graph graph, string start_vertex,
 //  A* (Άλφα Άστρο)
 void alpha_star_search(struct di_graph graph, string start_vertex,
                        string goal_vertex);
+
+#endif

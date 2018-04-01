@@ -8,6 +8,9 @@
  * Gogos Christos - Arta 2017
  */
 
+#ifndef __LAB02_GRAPH_HPP__
+#define __LAB02_GRAPH_HPP__
+
 #include <iostream>
 #include <list>
 #include <sstream>
@@ -52,3 +55,5 @@ struct di_graph read_data(string fn);
 
 // απελευθέρωση της μνήμης που καταλαμβάνει το γράφημα
 void free_memory(struct di_graph graph); 
+
+#endif

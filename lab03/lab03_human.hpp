@@ -7,6 +7,12 @@
  * TEI of Epirus - Department of Computer Engineering
  * Gogos Christos - Arta 2017
  */
+
+#ifndef __LAB03_HUMAN_HPP__
+#define __LAB03_HUMAN_HPP__
+
 #include "lab03_board.hpp"
 
 void human_move(char** board, char disk);
+
+#endif
