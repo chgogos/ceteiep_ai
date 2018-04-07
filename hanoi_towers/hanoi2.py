@@ -14,5 +14,5 @@ def towers(n, fr, to, spare):
         towers(1,fr,to,spare)
         towers(n-1, spare, to, fr)
 
-# if __name__ == "__main__":
-#     towers(5, 'f', 't', 's')
+if __name__ == "__main__":
+    towers(4, 'f', 't', 's')

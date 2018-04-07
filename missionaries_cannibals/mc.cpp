@@ -45,7 +45,6 @@ bool is_valid(string state) {
 vector<string> expand(string state) {
     vector<string> next_state_list;
     string new_state;
-    cout << state << endl;
     if (is_boat_left(state)) {
         // 2M left to right
         if (missionaries_left(state) >= 2) {
@@ -53,7 +52,6 @@ vector<string> expand(string state) {
             new_state[0] = missionaries_left(state) - 2 + '0';
             new_state[3] = missionaries_right(state) + 2 + '0';
             new_state[2] = '1';
-            cout << "test " << new_state << " " << is_valid(new_state) << endl;
             if (is_valid(new_state))
                 next_state_list.push_back(new_state);
         }
@@ -64,7 +62,6 @@ vector<string> expand(string state) {
             new_state[1] = cannibals_left(state) - 2 + '0';
             new_state[4] = cannibals_right(state) + 2 + '0';
             new_state[2] = '1';
-            cout << "test " << new_state << " " << is_valid(new_state) << endl;
             if (is_valid(new_state))
                 next_state_list.push_back(new_state);
         }
@@ -77,7 +74,6 @@ vector<string> expand(string state) {
             new_state[1] = cannibals_left(state) - 1 + '0';
             new_state[4] = cannibals_right(state) + 1 + '0';
             new_state[2] = '1';
-            cout << "test " << new_state << " " << is_valid(new_state) << endl;
             if (is_valid(new_state))
                 next_state_list.push_back(new_state);
         }
@@ -88,7 +84,6 @@ vector<string> expand(string state) {
             new_state[0] = missionaries_left(state) - 1 + '0';
             new_state[3] = missionaries_right(state) + 1 + '0';
             new_state[2] = '1';
-            cout << "test " << new_state << " " << is_valid(new_state) << endl;
             if (is_valid(new_state))
                 next_state_list.push_back(new_state);
         }
@@ -99,7 +94,6 @@ vector<string> expand(string state) {
             new_state[1] = cannibals_left(state) - 1 + '0';
             new_state[4] = cannibals_right(state) + 1 + '0';
             new_state[2] = '1';
-            cout << "test " << new_state << " " << is_valid(new_state) << endl;
             if (is_valid(new_state))
                 next_state_list.push_back(new_state);
         }
@@ -110,7 +104,6 @@ vector<string> expand(string state) {
             new_state[0] = missionaries_left(state) + 2 + '0';
             new_state[3] = missionaries_right(state) - 2 + '0';
             new_state[2] = '0';
-            cout << "test " << new_state << " " << is_valid(new_state) << endl;
             if (is_valid(new_state))
                 next_state_list.push_back(new_state);
         }
@@ -121,7 +114,6 @@ vector<string> expand(string state) {
             new_state[1] = cannibals_left(state) + 2 + '0';
             new_state[4] = cannibals_right(state) - 2 + '0';
             new_state[2] = '0';
-            cout << "test " << new_state << " " << is_valid(new_state) << endl;
             if (is_valid(new_state))
                 next_state_list.push_back(new_state);
 
@@ -135,7 +127,6 @@ vector<string> expand(string state) {
             new_state[1] = cannibals_left(state) + 1 + '0';
             new_state[4] = cannibals_right(state) - 1 + '0';
             new_state[2] = '0';
-            cout << "test " << new_state << " " << is_valid(new_state) << endl;
             if (is_valid(new_state))
                 next_state_list.push_back(new_state);
         }
@@ -146,7 +137,6 @@ vector<string> expand(string state) {
             new_state[0] = missionaries_left(state) + 1 + '0';
             new_state[3] = missionaries_right(state) - 1 + '0';
             new_state[2] = '0';
-            cout << "test " << new_state << " " << is_valid(new_state) << endl;
             if (is_valid(new_state))
                 next_state_list.push_back(new_state);
 
@@ -158,13 +148,11 @@ vector<string> expand(string state) {
             new_state[1] = cannibals_left(state) + 1 + '0';
             new_state[4] = cannibals_right(state) - 1 + '0';
             new_state[2] = '0';
-            cout << "test " << new_state << " " << is_valid(new_state) << endl;
             if (is_valid(new_state))
                 next_state_list.push_back(new_state);
         }
-        return next_state_list;
     }
-
+    return next_state_list;
 }
 
 bool goal(string state) {
