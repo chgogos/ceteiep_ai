@@ -40,6 +40,7 @@
 * [Awesome A.I. Bookmarks](https://github.com/goodrahstar/my-awesome-AI-bookmarks)
 * [The WIRED guide to A.I.](https://www.wired.com/story/guide-artificial-intelligence)
 * [An executive's guide to A.I.](https://www.mckinsey.com/business-functions/mckinsey-analytics/our-insights/an-executives-guide-to-ai)
+* [SAS: Artificial Intelligence - What is and why it matters](https://www.sas.com/en_us/insights/analytics/what-is-artificial-intelligence.html)
 * [Royal Society: Developments in machine learning and A.I.](https://royalsociety.org/topics-policy/projects/machine-learning/find-out-more)
 * [Google: A.I. experiments](https://experiments.withgoogle.com/ai)
 * [WIRED: Inside the Alexa prize](https://www.wired.com/story/inside-amazon-alexa-prize/)
@@ -56,6 +57,7 @@
 * [Data Skeptic: A.I. Decision Making](https://dataskeptic.com/blog/episodes/2018/ai-decision-making)
 * [Data Skeptic: Reinforcement Learning](https://dataskeptic.com/blog/episodes/2018/reinforcement-learning)
 * [Talking Machines: Natural vs Artificial Intelligence and Doing Unexpected Work](https://www.thetalkingmachines.com/node/12979)
+* [Oracle cloud Cafe, Podcast Series: A Practical Path to A.I.](https://www.oracle.com/cloudcafe.html)
 
 ---
 
