@@ -1,6 +1,8 @@
 # Οι πύργοι του Ανόι
 
-Αναδρομική λύση σε python
+## Αναδρομική λύση σε python
+
+* [hanoi.py](hanoi.py)
 
 ```
 python 
@@ -24,7 +26,9 @@ Move from f to t
 Move from s to t
 ```
 
-Καταγραφή αριθμού κίνησης
+## Αναδρομική λύση με καταγραφή αριθμού κίνησης
+
+* [hanoi2.py](hanoi2.py)
 
 ``` python hanoi2.py
 1. move from f to s
