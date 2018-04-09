@@ -53,7 +53,7 @@ make run3
 * [lab03_human.cpp](lab02_human.cpp)
 * [lab03_solvers.hpp](lab03_solvers.hpp)
 * [lab03_solvers.cpp](lab02_solvers.cpp)
-* [lab03_03.cpp](lab03_03.cpp)
+* [lab03_04.cpp](lab03_04.cpp)
 
 Εκτέλεση παραδείγματος 4 
 
