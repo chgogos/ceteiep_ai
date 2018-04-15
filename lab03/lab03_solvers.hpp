@@ -15,7 +15,7 @@
 
 // η κίνηση που θα γίνει αποφασίζεται από μια απλή ευρετική συνάρτηση που
 // μετρά για κάθε έγκυρη θέση τον αριθμό από πούλια που θα προκύψει
-// και επιλέγει την κίνηση με την μεγαλύτερη τιμή
+// και επιλέγει την κίνηση με τη μεγαλύτερη τιμή
 void computer_move_using_simple_heuristic(char **board, char disk);
 
 void computer_move_using_min_max(char **board, int plies, char disk);
