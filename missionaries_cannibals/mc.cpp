@@ -190,7 +190,7 @@ string pretty_print(string state) {
     return s;
 }
 
-// BFS add hoc
+// BFS ad hoc
 void breadth_first_search(string start_state) {
     set<string> closed;
     queue<state_with_path> frontier;
@@ -216,11 +216,6 @@ void breadth_first_search(string start_state) {
     for (string s : current.path)
         cout << pretty_print(s)  << endl ;
     cout << "GOAL" << endl;
-}
-
-void test() {
-    for (string state : expand("33000"))
-        cout << state << endl;
 }
 
 int main() {
