@@ -1,3 +1,8 @@
+/***
+ * TEI of Epirus - Department of Computer Engineering
+ * Gogos Christos - Arta 2018
+ */
+
 #include <iostream>
 #include <vector>
 #include <set>
