@@ -13,7 +13,7 @@
 
 using namespace std;
 
-const int N = 8;
+const int N = 16;
 
 // για κάθε γραμμή αποθηκεύεται η στήλη στην οποία βρίσκεται η βασίλισσά της
 int collisions(int board[N]) {
@@ -53,7 +53,7 @@ void copy(int source[N], int target[N]) {
 }
 
 void hc() {
-  srand(time(NULL));
+  srand(12345);
   int best_board[N];
   int next_board[N];
   int current_board[N];
@@ -61,7 +61,7 @@ void hc() {
   do {
     tries++;
     cout << "TRY " << tries << endl;
-    // δημιουργία τυχαίου ταμπλό με μια βασίλισσα ανά στήλη
+    // δημιουργία τυχαίου ταμπλό με μια βασίλισσα ανά γραμμή
     for (int i = 0; i < N; i++) {
       current_board[i] = rand() % N;
     }

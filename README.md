@@ -76,6 +76,8 @@
 * [Ασκήσεις εργαστηρίου 1 (pdf)](./lab01/ΤΝ%20ΕΡΓΑΣΤΗΡΙΟ%201-ΑΣΚΗΣΕΙΣ.pdf)
 * [Κώδικας σε C++](./lab01/README.md)
 * [Επίλυση με αναζήτηση του προβλήματος farmer-goat-wolf-cabbage (C++)](./farmer_goat_wolf_cabbage/README.md)
+* [Επίλυση με αναζήτηση του προβλήματος missionaries-cannibals (C++)](./missionaries_cannibals/README.md)
+
 
 ### Εργαστήριο 2
 
