@@ -317,12 +317,13 @@ void game2(int plies) {
       break;
     }
   }
-  cout << "the winner is " << game_status(board) << endl;
+  cout << "Τhe winner is " << game_status(board) << endl;
   delete_board(board);
 }
 
 int main() {
   // for (int i = 0; i < 80; i++)
   //   game1(8);
+
   game2(8);
 }
