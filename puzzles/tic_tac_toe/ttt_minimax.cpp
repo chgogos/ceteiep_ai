@@ -129,11 +129,11 @@ bool is_complete(char **aboard) {
     return false;
 }
 
-list<char **> get_successor_boards(char **aboard, char disk) {
+list<char **> get_successor_boards(char **aboard, char symbol) {
   list<char **> successors{};
   for (pair<int, int> p : get_valid_positions(aboard)) {
     char **b = copy_board(aboard);
-    update_board(b, p.first, p.second, disk);
+    update_board(b, p.first, p.second, symbol);
     successors.push_back(b);
   }
   return successors;
