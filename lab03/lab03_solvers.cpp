@@ -1,11 +1,6 @@
 /***
- *       ___   ___   _____   ___   ___   ___   ___     ___    __    _   ____
- *      / __| | __| |_   _| | __| |_ _| | __| | _ \   |_  )  /  \  / | |__  |
- *     | (__  | _|    | |   | _|   | |  | _|  |  _/    / /  | () | | |   / /
- *      \___| |___|   |_|   |___| |___| |___| |_|     /___|  \__/  |_|  /_/
- *
  * TEI of Epirus - Department of Computer Engineering
- * Gogos Christos - Arta 2017
+ * Gogos Christos - Arta 2018
  */
 
 #include "lab03_solvers.hpp"
@@ -15,7 +10,11 @@ void computer_move_using_simple_heuristic(char **board, char disk) {
   int best_r{-1};
   int best_c{-1};
   int best_value{-1};
-  for (pair<int, int> x : get_valid_positions(board, disk)) {
+  vector<pair<int,int>> valid_moves = get_valid_positions(board, disk);
+  default_random_engine gen;
+  gen.seed(time(NULL));
+  shuffle(valid_moves.begin(), valid_moves.end(), gen);
+  for (pair<int, int> x : valid_moves) {
     char **duplicated_board = copy_board(board);
     int r{x.first};
     int c{x.second};
@@ -38,16 +37,16 @@ void computer_move_using_simple_heuristic(char **board, char disk) {
 
 // ευρετική συνάρτηση για την αριθμητική σχέση στα πούλια των δύο αντιπάλων
 int parity(char **aboard) {
-  int max_player_disks = get_disks_with_color(aboard, 'O');
-  int min_player_disks = get_disks_with_color(aboard, 'X');
+  int max_player_disks = get_disks_with_color(aboard, 'X');
+  int min_player_disks = get_disks_with_color(aboard, 'O');
   return 100 * (max_player_disks - min_player_disks) /
          (max_player_disks + min_player_disks);
 }
 
 // ευρετική συνάρτηση για τη σχέση κινητικότητας ανάμεσα στους δύο αντιπάλους
 int mobility(char **aboard) {
-  int max_player_moves = get_valid_positions(aboard, 'O').size();
-  int min_player_moves = get_valid_positions(aboard, 'X').size();
+  int max_player_moves = get_valid_positions(aboard, 'X').size();
+  int min_player_moves = get_valid_positions(aboard, 'O').size();
   if (max_player_moves + min_player_moves == 0)
     return 0;
   else
@@ -71,8 +70,8 @@ int player_corners(char **aboard, char disk) {
 
 // ευρετική συνάρτηση για τη σχέση κατειλημμένων γωνιών από τους δύο αντιπάλους
 int corners(char **aboard) {
-  int max_player_corners = player_corners(aboard, 'O');
-  int min_player_corners = player_corners(aboard, 'X');
+  int max_player_corners = player_corners(aboard, 'X');
+  int min_player_corners = player_corners(aboard, 'O');
   if (max_player_corners + min_player_corners == 0)
     return 0;
   else
@@ -130,13 +129,13 @@ int min_value(char **aboard, int plies) {
 }
 
 pair<int, int> minimax_decision(char **aboard, int plies, char disk) {
-  if (disk == 'O') {
+  if (disk == 'X') {
     int max = INT_MIN;
     pair<int, int> move;
     for (pair<int, int> p : get_valid_positions(aboard, disk)) {
       char **b = copy_board(aboard);
-      update_board(b, p.first, p.second, 'O');
-      int v = max_value(b, plies - 1);
+      update_board(b, p.first, p.second, 'X');
+      int v = min_value(b, plies - 1);
       if (v > max) {
         max = v;
         move.first = p.first;
@@ -150,8 +149,8 @@ pair<int, int> minimax_decision(char **aboard, int plies, char disk) {
     pair<int, int> move;
     for (pair<int, int> p : get_valid_positions(aboard, disk)) {
       char **b = copy_board(aboard);
-      update_board(b, p.first, p.second, 'X');
-      int v = min_value(b, plies - 1);
+      update_board(b, p.first, p.second, 'O');
+      int v = max_value(b, plies - 1);
       if (v < min) {
         min = v;
         move.first = p.first;
@@ -215,13 +214,13 @@ int ab_min_value(char **aboard, int alpha, int beta, int plies) {
 }
 
 pair<int, int> ab_minimax_decision(char **aboard, int plies, char disk) {
-  if (disk == 'O') {
+  if (disk == 'X') {
     int max = INT_MIN;
     pair<int, int> move;
     for (pair<int, int> p : get_valid_positions(aboard, disk)) {
       char **b = copy_board(aboard);
-      update_board(b, p.first, p.second, 'O');
-      int v = ab_max_value(b, INT_MIN, INT_MAX, plies - 1);
+      update_board(b, p.first, p.second, 'X');
+      int v = ab_min_value(b, INT_MIN, INT_MAX, plies - 1);
       if (v > max) {
         max = v;
         move.first = p.first;
@@ -235,8 +234,8 @@ pair<int, int> ab_minimax_decision(char **aboard, int plies, char disk) {
     pair<int, int> move;
     for (pair<int, int> p : get_valid_positions(aboard, disk)) {
       char **b = copy_board(aboard);
-      update_board(b, p.first, p.second, 'X');
-      int v = ab_min_value(b, INT_MIN, INT_MAX, plies - 1);
+      update_board(b, p.first, p.second, 'O');
+      int v = ab_max_value(b, INT_MIN, INT_MAX, plies - 1);
       if (v < min) {
         min = v;
         move.first = p.first;

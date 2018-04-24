@@ -87,7 +87,7 @@ void hc() {
         copy(best_board, current_board);
       } else {
         print_board(best_board);
-        cout << "Deadend, best number of collisions achieved " << min << endl;
+        cout << "Deadend, best number of collisions achieved was " << min << endl;
         break;
       }
     }

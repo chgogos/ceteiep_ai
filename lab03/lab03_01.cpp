@@ -10,8 +10,9 @@
 
 #include "lab03_board.hpp"
 
+static default_random_engine gen;
+
 int main() {
-  default_random_engine gen;
   gen.seed(time(NULL));
   char **board = initialize_board();
   draw_board(board);

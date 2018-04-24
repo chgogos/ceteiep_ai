@@ -73,16 +73,16 @@ make run4
 make -f exercises.mk 
 ```
 
-Εκτέλεση άσκησης 3
+Εκτέλεση άσκησης 1
 
 ```bash
-make -f exercises.mk exercise03
+make -f exercises.mk exercise01
 ```
 
-Εκτέλεση άσκησης 4
+Εκτέλεση άσκησης 2
 
 ```bash
-make -f exercises.mk exercise04
+make -f exercises.mk exercise02
 ```
 
 Διαγραφή εκτελέσιμων

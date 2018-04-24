@@ -4,8 +4,8 @@
 
 * [hanoi.py](hanoi.py)
 
-```
-python 
+```bash
+python
 
 >>> import hanoi
 >>> hanoi.towers(4, 'f', 't', 's')
