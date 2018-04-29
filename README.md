@@ -4,8 +4,8 @@
 
 ## Υλικό στο eclass του Τμήματος
 
-* [108. ΤΕΧΝΗΤΗ ΝΟΗΜΟΣΥΝΗ (Στύλιος Χρυσόστομος)](https://www.ce.teiep.gr/e-class/courses/108/)
 * [196. ΤΕΧΝΗΤΗ ΝΟΗΜΟΣΥΝΗ (Γκόγκος Χρήστος)](https://www.ce.teiep.gr/e-class/courses/196/)
+* [108. ΤΕΧΝΗΤΗ ΝΟΗΜΟΣΥΝΗ (Στύλιος Χρυσόστομος)](https://www.ce.teiep.gr/e-class/courses/108/)
 
 ## Θεωρία
 
@@ -24,6 +24,8 @@
   * AIPython: Python Code for AIFCA <http://artint.info/AIPython/>
 * Introduction to Artificial Intelligence, Wolfgang Ertel, Springer, 2011, <http://www.springer.com/gp/book/9783319584867>
 * Artificial Intelligence: Structures and Strategies for Complex Problem Solving, 6/E, George F. Luger, 2009, University of New Mexico, <http://catalogue.pearsoned.co.uk/educator/product/Artificial-Intelligence-Structures-and-Strategies-for-Complex-Problem-Solving-6E/9780321545893.page>
+* Programming in Prolog: Using the ISO standard, W.F.Clocksin, C.S.Mellish, 5th edition, Springer, 2013.
+* Prolog Programming for Artificial Intelligence, Ivan Bratko, 4th edition, Pearson Education, 2011.
 
 ### Μαθήματα με ανοικτό υλικό (βιντεοδιαλέξεις - παρουσιάσεις κλπ)
 
@@ -54,6 +56,7 @@
 * [pathfinding.js](http://qiao.github.io/PathFinding.js/visual/)
 * [AISPACE: Tools for learning Artificial Intelligence](http://www.aispace.org/)
 * [Nonverbal graph search instructions - IDEA](https://idea-instructions.com/graph-scan/)
+* [Leela Chess Zero](https://en.chessbase.com/post/leela-chess-zero-alphazero-for-the-pc)
 
 ### Podcasts
 
@@ -86,7 +89,7 @@
 * [Αναζήτηση με πληροφόρηση (ευρετική αναζήτηση) (pdf)](./lab02/ΤΝ%20ΕΡΓΑΣΤΗΡΙΟ%202-ΠΛΗΡΟΦΟΡΗΜΕΝΗ%20ΑΝΑΖΗΤΗΣΗ.pdf)
 * [Ασκήσεις εργαστηρίου 2 (pdf)](./lab02/ΤΝ%20ΕΡΓΑΣΤΗΡΙΟ%202-ΑΣΚΗΣΕΙΣ.pdf)
 * [Κώδικας σε C++ για την εφαρμογή αλγορίθμων ευρετικής αναζήτησης σε γραφήματα](./lab02/README.md)
-* [Επίλυση προβλήματος N Queens (C++)](./puzzles/nqueens/README.md)
+* [Επίλυση προβλήματος N Queens (C++) - τοπική αναζήτηση](./puzzles/nqueens/README.md)
 
 ### Εργαστήριο 3
 
@@ -100,6 +103,8 @@
 ### Εργαστήριο 4
 
 Λογικός Προγραμματισμός - Prolog
+
+* [Prolog](./lab04/README.md)
 
 ### Εργαστήριο 5
 
