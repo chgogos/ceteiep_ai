@@ -4,6 +4,8 @@ listens2music(yolanda):- happy(yolanda).
 playsAirGuitar(mia):- listens2music(mia).
 playsAirGuitar(yolanda):- listens2music(yolanda).
 
-% playsAirGuitar(mia).
+% ?- playsAirGuitar(mia).
+% true.
 
-% playsAirGuitar(yolanda).
+% ?- playsAirGuitar(yolanda).
+% false.
