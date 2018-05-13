@@ -57,6 +57,7 @@
 * [AISPACE: Tools for learning Artificial Intelligence](http://www.aispace.org/)
 * [Nonverbal graph search instructions - IDEA](https://idea-instructions.com/graph-scan/)
 * [Leela Chess Zero](https://en.chessbase.com/post/leela-chess-zero-alphazero-for-the-pc)
+* [Microsoft A.I.](https://aischool.microsoft.com/learning-paths)
 
 ### Podcasts
 
@@ -81,7 +82,6 @@
 * [Επίλυση με αναζήτηση του προβλήματος farmer-goat-wolf-cabbage (C++)](./puzzles/farmer_goat_wolf_cabbage/README.md)
 * [Επίλυση με αναζήτηση του προβλήματος missionaries-cannibals (C++)](./puzzles/missionaries_cannibals/README.md)
 
-
 ### Εργαστήριο 2
 
 Αναζήτηση με πληροφόρηση: Υλοποίηση αλγορίθμων HC, BestFS και A* σε C++.
@@ -105,7 +105,7 @@
 Λογικός Προγραμματισμός - Prolog
 
 * [Prolog (pdf)](./lab04/ΤΝ%20ΕΡΓΑΣΤΗΡΙΟ%204-PROLOG.pdf)
-* [Ασκήσεις εργαστηρίου 3 (pdf)](./lab04/ΤΝ%20ΕΡΓΑΣΤΗΡΙΟ%204-ΑΣΚΗΣΕΙΣ%20PROLOG.pdf)
+* [Ασκήσεις εργαστηρίου 4 (pdf)](./lab04/ΤΝ%20ΕΡΓΑΣΤΗΡΙΟ%204-ΑΣΚΗΣΕΙΣ%20PROLOG.pdf)
 * [Tutorials, Βιβλία, κώδικας](./lab04/README.md)
 
 ### Εργαστήριο 5
