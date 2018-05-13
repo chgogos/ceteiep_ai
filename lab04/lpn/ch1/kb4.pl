@@ -6,8 +6,8 @@ loves(marsellus, mia).
 loves(pumpkin, honey_bunny).
 loves(honey_bunny, pumpkin).
 
-% ?- woman(X).
+%% ?- woman(X).
 
-% ?- loves(marsellus,X), woman(X).
+%% ?- loves(marsellus,X), woman(X).
 
-% ?- loves(pumpkin,X), woman(X).
+%% ?- loves(pumpkin,X), woman(X).
