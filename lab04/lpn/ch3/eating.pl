@@ -7,4 +7,4 @@ just_ate(mosquito,blood(john)).
 just_ate(frog,mosquito).
 just_ate(stork,frog).
 
-% isDigesting(stork,mosquito).
+%% is_digesting(stork,mosquito).

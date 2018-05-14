@@ -5,4 +5,4 @@ child(donna,emily).
 descend(X,Y):- child(X,Y).
 descend(X,Y):- child(X,Z), descend(Z,Y).
 
-% descend(anna, donna).
+%% descend(anna, donna).
