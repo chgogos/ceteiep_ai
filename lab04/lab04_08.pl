@@ -1,4 +1,4 @@
-%% ÅÑÙÔÇÌÁ Á
+%% Î•ÏÏÏ„Î·Î¼Î± Î‘
 and_gate(0,0,0).
 and_gate(0,1,0).
 and_gate(1,0,0).
@@ -17,7 +17,7 @@ get_and_gate :-
         and_gate(X,Y,Z),
         format('~w AND ~w = ~w ~n', [X,Y,Z]).
 
-%% ÅÑÙÔÇÌÁ Â
+%% Î•ÏÏÏ„Î·Î¼Î± Î’
 or_gate(0,0,0).
 or_gate(0,1,1).
 or_gate(1,0,1).
@@ -28,9 +28,8 @@ full_adder(Carry,Xi,Yi,NextCarry,Si) :-
         half_adder(Carry, S, C2, Si),
         or_gate(C2,C, NextCarry).
 
-%% ÅÑÙÔÇÌÁ Ã
+%% Î•ÏÏÏ„Î·Î¼Î± Î“
 adder_3_digits(C0,A2,A1,A0, B2,B1,B0,C3,S2,S1,S0):-
         full_adder(C0,A0,B0,C1,S0),
         full_adder(C1,A1,B1,C2,S1),
         full_adder(C2,A2,B2,C3,S2).
-

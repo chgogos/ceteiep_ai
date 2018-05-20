@@ -23,7 +23,7 @@
 
 ## Προγράμματα σε Prolog
 
-### LPN
+### Learn Prolog Now (LPN)
 
 * [Chapter 1 kb1.pl](lpn/ch1/kb1.pl)
 * [Chapter 1 kb2.pl](lpn/ch1/kb2.pl)
@@ -43,6 +43,15 @@
 * [Chapter 3 successor.pl](lpn/ch3/successor.pl)
 * [Chapter 3 add.pl](lpn/ch3/add.pl)
 * [Chapter 3 matryoshka.pl](lpn/ch3/matryoshka.pl)
+* [Chapter 4 member.pl](lpn/ch4/member.pl)
+* [Chapter 5 addThreeAndDouble.pl](lpn/ch5/addThreeAndDouble.pl)
+* [Chapter 5 len1.pl](lpn/ch5/len1.pl)
+* [Chapter 5 acclen.pl](lpn/ch5/acclen.pl)
+* [Chapter 10 kb1.pl](lpn/ch10/kb1.pl)
+* [Chapter 10 kb2.pl](lpn/ch10/kb2.pl)
+* [Chapter 10 kb3.pl](lpn/ch10/kb3.pl)
+* [Chapter 10 kb4.pl](lpn/ch10/kb4.pl)
+* [Chapter 10 kb5.pl](lpn/ch10/kb5.pl)
 
 ### ΑΣΚΗΣΕΙΣ
 
