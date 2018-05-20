@@ -4,4 +4,10 @@ jealous(A,B):-
 loves(A,C),
 loves(B,C).
 
-% jealous(X,Y).
+%% ?- jealous(X,Y).
+%% X = Y, Y = vincent ;
+%% X = vincent,
+%% Y = marsellus ;
+%% X = marsellus,
+%% Y = vincent ;
+%% X = Y, Y = marsellus.

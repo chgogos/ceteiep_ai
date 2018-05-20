@@ -7,7 +7,7 @@ magic(X):- house_elf(X).
 magic(X):- wizard(X).
 magic(X):- witch(X).
 
-%% magic(Hermione).
+%% ?- magic(Hermione).
 %% Hermione = dobby;
 %% Hermione = harry;
 %% Hermione = 'McGonagall';
