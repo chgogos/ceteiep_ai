@@ -7,3 +7,7 @@ in(X,Y):- directlyIn(X,Z), in(Z,Y).
 
 %% Ποιες κούκλες βρίσκονται μέσα στην katarina
 %% in(katarina, X). 
+%% X = olga ;
+%% X = natasha ;
+%% X = irina ;
+%% false.
