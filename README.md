@@ -16,7 +16,7 @@
 * ΑΙΜΑ Book
   * Τεχνητή Νοημοσύνη, μια σύγχρονη προσέγγιση, Stuart Russell & Peter Norvig, Κλειδάριθμος, επιμέλεια μετάφρασης: Γιάννης Ρεφανίδης,ISBN: 960-209-873-2, <http://ai.uom.gr/aima/>
   * Artificial Intelligence: A Modern Approach, Stuart Russell & Peter Norvig, Pearson; 3rd edition (December 11, 2009), <http://aima.cs.berkeley.edu>
-  * Python code for the book Artificial Intelligence: A Modern Approach <https://github.com/aimacode/aima-python>
+  * Code for the book Artificial Intelligence: A Modern Approach <https://github.com/aimacode>
 * Ι. Βλαχάβας, Π. Κεφαλάς, Ν. Βασιλειάδης, Φ. Κόκκορας, Η. Σακελλαρίου. Τεχνητή Νοημοσύνη - Γ' Έκδοση, ISBN: 978-960-8396-64-7 Έκδοση/Διάθεση: Εκδόσεις Πανεπιστημίου Μακεδονίας, 2011, <http://aibook.csd.auth.gr/>
   * Διαφάνειες βιβλίου <http://aibook.csd.auth.gr/slides_toc.html>
 * AIFCA Book
