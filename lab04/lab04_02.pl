@@ -7,17 +7,29 @@ birthday(helen).
 happy(mary).
 happy(jane).
 happy(helen).
-
-% Ερώτημα Α
-% ?- birthday(jane).
-% false
-
-% ?- hold_party(X).
-X = helen
-
-% Ερώτημα Β
-% trace.
-% ?- hold_party(X).
-
-% Ερώτημα Γ
 happy(X) :- birthday(X).
+
+%% Ερώτημα Α
+%% ?- birthday(jane).
+%% false.
+
+%% Ερώτημα Β
+%% ?- hold_party(X).
+%% X = helen.
+
+%% Ερώτημα Β με ανίχνευση εκτέλεσης
+%% trace.
+%% ?- hold_party(X).
+%% ...
+%% notrace.
+%% nodebug.
+
+%% Ερώτημα Γ
+%% happy(X) :- birthday(X).
+
+%% εκ νέου εκτέλεση του ερωτήματος hold_party(X)
+%% ?- hold_party(X).
+%% X = tom ;
+%% X = fred ;
+%% X = helen ;
+%% X = helen.
