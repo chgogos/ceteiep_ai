@@ -4,6 +4,7 @@
 
 * [Learn Prolog Now](http://www.learnprolognow.org/)
 * [Prolog tutorial by J.R.Fisher](https://www.cpp.edu/~jrfisher/www/prolog_tutorial/pt_framer.html)
+* [The power of Prolog by Markus Triska](https://www.metalevel.at/prolog)
 
 ## Σημειώσεις-βιβλία για την Prolog στα Ελληνικά
 
@@ -44,6 +45,7 @@
 * [Chapter 3 add.pl](lpn/ch3/add.pl)
 * [Chapter 3 matryoshka.pl](lpn/ch3/matryoshka.pl)
 * [Chapter 4 member.pl](lpn/ch4/member.pl)
+* [Chapter 4 a2b.pl](lpn/ch4/a2b.pl)
 * [Chapter 5 addThreeAndDouble.pl](lpn/ch5/addThreeAndDouble.pl)
 * [Chapter 5 len1.pl](lpn/ch5/len1.pl)
 * [Chapter 5 accLen.pl](lpn/ch5/accLen.pl)
