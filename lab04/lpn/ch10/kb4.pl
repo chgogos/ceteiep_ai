@@ -20,5 +20,6 @@ whopper(d).
 %% ?- enjoys(vincent,d).
 %% true.
 
+%% μη επιθυμητή συμπεριφορά
 %% ?- enjoys(vincent,X).
 %% false.
