@@ -1,4 +1,6 @@
-﻿:- use_module(library(clpfd)).
+﻿%% χρήση των global constraints all_different και chain
+
+:- use_module(library(clpfd)).
 
 find4(Vs) :-
     length(Vs,4),

@@ -8,3 +8,9 @@ solve(X,Y,Z) :-
     X =:= Y +1,
     Z<X,
     write([X,Y,Z]),nl,fail.
+
+%% ?- solve(X,Y,Z).
+%% [7,6,6]
+%% [8,7,6]
+%% [8,7,7]
+%% false.

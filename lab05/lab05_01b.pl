@@ -9,5 +9,11 @@ solve(X,Y,Z):-
     Z in 6..10,
     X #= Y+1,
     Z #< X,
-    %label([X,Y,Z]),
+    label([X,Y,Z]),
     write([X,Y,Z]),nl,fail.
+
+%% ?- solve(X,Y,Z).
+%% [7,6,6]
+%% [8,7,6]
+%% [8,7,7]
+%% false.
