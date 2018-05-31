@@ -23,6 +23,7 @@
   * Artificial Intelligence, Foundations of Computational Agents, David Poole, Alan Mackworth, <http://people.cs.ubc.ca/~poole/aibook/index.html>
   * AIPython: Python Code for AIFCA <http://artint.info/AIPython/>
 * Introduction to Artificial Intelligence, Wolfgang Ertel, Springer, 2011, <http://www.springer.com/gp/book/9783319584867>
+* Τεχνητή Νοημοσύνη - ΘΕΩΡΗΤΙΚΗ ΠΡΟΣΕΓΓΙΣΗ ΤΗΣ ΕΠΙΛΥΣΗΣ ΠΡΟΒΛΗΜΑΤΩΝ ΜΕ ΤΗ ΒΟΗΘΕΙΑ ΜΕΘΟΔΩΝ ΤΕΧΝΗΤΗΣ ΝΟΗΜΟΣΥΝΗΣ, Γεωργούλη Αικατερίνη, Ελληνικά Ακαδημαϊκά Συγγράματα και Βοηθήματα <https://repository.kallipos.gr/handle/11419/3381>
 * Artificial Intelligence: Structures and Strategies for Complex Problem Solving, 6/E, George F. Luger, 2009, University of New Mexico, <http://catalogue.pearsoned.co.uk/educator/product/Artificial-Intelligence-Structures-and-Strategies-for-Complex-Problem-Solving-6E/9780321545893.page>
 * Programming in Prolog: Using the ISO standard, W.F.Clocksin, C.S.Mellish, 5th edition, Springer, 2013.
 * Prolog Programming for Artificial Intelligence, Ivan Bratko, 4th edition, Pearson Education, 2011.
@@ -39,11 +40,16 @@
 
 ### MOOCs
 
-* EdX, Artificial Intelligence, by Columbia University CSMM.101x <https://www.edx.org/course/artificial-intelligence-ai-columbiax-csmm-101x-2>
-* Udacity, Intro to Artificial Intelligence <https://www.udacity.com/course/intro-to-artificial-intelligence--cs271>
+* [EdX, Artificial Intelligence, by Columbia University CSMM.101x](https://www.edx.org/course/artificial-intelligence-ai-columbiax-csmm-101x-2)
+* [Udacity, Intro to Artificial Intelligence](https://www.udacity.com/course/intro-to-artificial-intelligence--cs271)
+* [Elements of A.I. by University of Helsinki](https://www.elementsofai.com/)
 
 ### Ενδιαφέροντα άρθρα - ιστοσελίδες
 
+* [AISPACE: Tools for learning Artificial Intelligence](http://www.aispace.org/)
+* [Nonverbal graph search instructions - IDEA](https://idea-instructions.com/graph-scan/)
+* [Introduction to A*](https://www.redblobgames.com/pathfinding/a-star/introduction.html), [Amit’s A* Pages](http://theory.stanford.edu/~amitp/GameProgramming/)
+* [PathFinding.js](http://qiao.github.io/PathFinding.js/visual/)
 * [Awesome A.I. Bookmarks](https://github.com/goodrahstar/my-awesome-AI-bookmarks)
 * [The WIRED guide to A.I.](https://www.wired.com/story/guide-artificial-intelligence)
 * [An executive's guide to A.I.](https://www.mckinsey.com/business-functions/mckinsey-analytics/our-insights/an-executives-guide-to-ai)
@@ -52,10 +58,6 @@
 * [Google: A.I. experiments](https://experiments.withgoogle.com/ai)
 * [WIRED: Inside the Alexa prize](https://www.wired.com/story/inside-amazon-alexa-prize/)
 * [Θεωρία παιγνίων (παράδειγμα: η εξέλιξη της εμπιστοσύνης)](https://lightspot21.github.io/trust/)
-* [Introduction to A*](https://www.redblobgames.com/pathfinding/a-star/introduction.html), [Amit’s A* Pages](http://theory.stanford.edu/~amitp/GameProgramming/)
-* [PathFinding.js](http://qiao.github.io/PathFinding.js/visual/)
-* [AISPACE: Tools for learning Artificial Intelligence](http://www.aispace.org/)
-* [Nonverbal graph search instructions - IDEA](https://idea-instructions.com/graph-scan/)
 * [Leela Chess Zero](https://en.chessbase.com/post/leela-chess-zero-alphazero-for-the-pc)
 * [Microsoft A.I.](https://aischool.microsoft.com/learning-paths)
 
