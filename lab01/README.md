@@ -17,7 +17,7 @@ g++ lab01_graph.cpp lab01_01.cpp -o lab01_01 -Wall -std=c++11
 Εκτέλεση για τη φόρτωση του αρχείου tour_romania.txt από τον κατάλογο data
 
 ```bash
-.\lab01_01 data/tour_romania.txt
+./lab01_01 data/tour_romania.txt
 ```
 
 Έξοδος
@@ -196,7 +196,7 @@ make clean
 * [exercises.mk](exercises.mk)
 
 ```bash
-make -f exercises.mk 
+make -f exercises.mk
 ```
 
 Εκτέλεση άσκησης 2
