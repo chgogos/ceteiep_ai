@@ -49,7 +49,8 @@
 
 * [AISPACE: Tools for learning Artificial Intelligence](http://www.aispace.org/)
 * [Nonverbal graph search instructions - IDEA](https://idea-instructions.com/graph-scan/)
-* [Introduction to A*](https://www.redblobgames.com/pathfinding/a-star/introduction.html), [Amit’s A* Pages](http://theory.stanford.edu/~amitp/GameProgramming/)
+* [Introduction to A*](https://www.redblobgames.com/pathfinding/a-star/introduction.html)
+* [Amit’s A* Pages](http://theory.stanford.edu/~amitp/GameProgramming/)
 * [PathFinding.js](http://qiao.github.io/PathFinding.js/visual/)
 * [Awesome A.I. Bookmarks](https://github.com/goodrahstar/my-awesome-AI-bookmarks)
 * [The WIRED guide to A.I.](https://www.wired.com/story/guide-artificial-intelligence)
