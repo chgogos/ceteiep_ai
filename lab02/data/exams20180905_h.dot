@@ -1,0 +1,22 @@
+strict graph G {
+    {rank=same; B,C}
+    {rank=same; E,F}
+    A [label=<A<BR /><FONT POINT-SIZE="10">SLD=20</FONT>> xlabel="START"];
+    B [label=<B<BR /><FONT POINT-SIZE="10">SLD=11</FONT>>];
+    C [label=<C<BR /><FONT POINT-SIZE="10">SLD=12</FONT>>];
+    D [label=<D<BR /><FONT POINT-SIZE="10">SLD=4</FONT>>];
+    E [label=<E<BR /><FONT POINT-SIZE="10">SLD=2</FONT>>];
+    F [label=<F<BR /><FONT POINT-SIZE="10">SLD=5</FONT>>];
+    G [label=<G<BR /><FONT POINT-SIZE="10">SLD=2</FONT>>];
+    H [label="H" xlabel="FINISH"];
+    A -- B [label=3];
+    A -- C [label=1];
+    B -- C [label=1];
+    B -- D [label=10];
+    D -- E [label=2];
+    D -- F [label=6];
+    E -- G [label=2];
+    F -- G [label=1];
+    E -- H [label=3];
+    G -- H [label=5];
+}

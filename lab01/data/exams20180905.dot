@@ -1,0 +1,14 @@
+strict graph G {
+    {rank=same; B,C}
+    {rank=same; E,F}
+    A -- B [label=3];
+    A -- C [label=1];
+    B -- C [label=1];
+    B -- D [label=10];
+    D -- E [label=2];
+    D -- F [label=6];
+    E -- G [label=2];
+    F -- G [label=1];
+    E -- H [label=3];
+    G -- H [label=5];
+}
