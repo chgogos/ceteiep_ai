@@ -1,11 +1,12 @@
-# Τεχνητή Νοημοσύνη (θεωρία και εργαστήριο)
+# Τεχνητή Νοημοσύνη
 
 Τμήμα Μηχανικών Πληροφορικής Τ.Ε.Ι. Ηπείρου
 
+Γκόγκος Χρήστος
+
 ## Υλικό στο eclass του Τμήματος
 
-* [196. ΤΕΧΝΗΤΗ ΝΟΗΜΟΣΥΝΗ (Γκόγκος Χρήστος)](https://www.ce.teiep.gr/e-class/courses/196/)
-* [108. ΤΕΧΝΗΤΗ ΝΟΗΜΟΣΥΝΗ (Στύλιος Χρυσόστομος)](https://www.ce.teiep.gr/e-class/courses/108/)
+* [196. ΤΕΧΝΗΤΗ ΝΟΗΜΟΣΥΝΗ (Γκόγκος Χρήστος)](https://www.dit.uoi.gr/e-class/courses/196/)
 
 ## Θεωρία
 
@@ -67,7 +68,7 @@
 * [Data Skeptic: The Agent Model of Intelligence](https://dataskeptic.com/blog/episodes/2018/the-agent-model-of-intelligence)
 * [Data Skeptic: A.I. Decision Making](https://dataskeptic.com/blog/episodes/2018/ai-decision-making)
 * [Data Skeptic: Reinforcement Learning](https://dataskeptic.com/blog/episodes/2018/reinforcement-learning)
-* [Talking Machines: Natural vs Artificial Intelligence and Doing Unexpected Work](https://www.thetalkingmachines.com/node/12979)
+* [Talking Machines](https://www.thetalkingmachines.com/)
 * [Oracle cloud Cafe, Podcast Series: A Practical Path to A.I.](https://www.oracle.com/cloudcafe.html)
 
 ---
