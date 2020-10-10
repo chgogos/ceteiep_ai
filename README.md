@@ -6,7 +6,7 @@
 
 ## Υλικό στο eclass του Τμήματος
 
-* [196. ΤΕΧΝΗΤΗ ΝΟΗΜΟΣΥΝΗ (Γκόγκος Χρήστος)](https://www.dit.uoi.gr/e-class/courses/196/)
+* [196. ΤΕΧΝΗΤΗ ΝΟΗΜΟΣΥΝΗ](https://www.dit.uoi.gr/e-class/courses/196/)
 
 ## Θεωρία
 
