@@ -13,7 +13,7 @@
 
 ## Βίντεο μαθήματα για την Prolog
 
-* [ΠΛΗ31 - Η γλώσσα Prolog (psounis.gr)](http://www.psounis.gr/%CF%80%CE%BB%CE%B731/%CF%80%CE%BB%CE%B731-%CE%B7-%CE%B3%CE%BB%CF%8E%CF%83%CF%83%CE%B1-prolog/)
+* [ΠΛΗ31 - Η γλώσσα Prolog (psounis.gr)](https://www.youtube.com/playlist?list=PLLMmbOLFy25HGbFmMa6aWLBkFcI5FVabr)
 * [Prolog in Artificial Intelligence (tutorialspoint)](https://www.tutorialspoint.com/prolog_in_artificial_intelligence/index.asp)
 
 ## Λογισμικά για προγραμματισμό σε Prolog
@@ -49,7 +49,7 @@
 * [Chapter 4 a2b.pl](lpn/ch4/a2b.pl)
 * [Chapter 5 addThreeAndDouble.pl](lpn/ch5/addThreeAndDouble.pl)
 * [Chapter 5 len1.pl](lpn/ch5/len1.pl)
-* [Chapter 5 accLen.pl](lpn/ch5/accLen.pl)
+* [Chapter 5 accLen.pl](lpn/ch5/acclen.pl)
 * [Chapter 5 accMax.pl](lpn/ch5/accMax.pl)
 * [Chapter 10 kb1.pl](lpn/ch10/kb1.pl)
 * [Chapter 10 kb2.pl](lpn/ch10/kb2.pl)
