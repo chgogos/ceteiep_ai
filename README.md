@@ -6,10 +6,6 @@
 
 Τελευταία ενημέρωση: 31/10/2020
 
-## Υλικό στο eclass του Τμήματος
-
-* [196. ΤΕΧΝΗΤΗ ΝΟΗΜΟΣΥΝΗ](https://www.dit.uoi.gr/e-class/courses/196/)
-
 ## Θεωρία
 
 Ευφυείς πράκτορες, αλγόριθμοι αναζήτησης χωρίς πληροφόρηση σε χώρους καταστάσεων (BFS=Breadth First Search, DFS=Depth First Search, UCS=Uniform Cost Search, DLS=Depth Limited Search, IDS=Iterative Deepening Search, ILS=Iterative Lengthening Search, BiS=Bidirectional Search), αλγόριθμοι ευρετικής αναζήτησης σε χώρους καταστάσεων (HC=Hill Climbing, BestFS, A*), αναζήτηση με αντιπαλότητα (minimax, α-β), προβλήματα ικανοποίησης περιορισμών, προτασιακή λογική, κατηγορηματική λογική, λογικός προγραμματισμός, Prolog.

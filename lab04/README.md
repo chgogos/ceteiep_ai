@@ -13,7 +13,6 @@
 
 ## Βίντεο μαθήματα για την Prolog
 
-* [ΠΛΗ31 - Η γλώσσα Prolog (psounis.gr)](https://www.youtube.com/playlist?list=PLLMmbOLFy25HGbFmMa6aWLBkFcI5FVabr)
 * [Prolog in Artificial Intelligence (tutorialspoint)](https://www.tutorialspoint.com/prolog_in_artificial_intelligence/index.asp)
 
 ## Λογισμικά για προγραμματισμό σε Prolog
